@@ -19,7 +19,6 @@ Lista<T>::~Lista() {
         delete p;
         p = q;
     }
-
 }
 
 template <typename T>
@@ -29,7 +28,7 @@ Lista<T>& Lista<T>::operator=(const Lista<T>& l) {
 
 template <typename T>
 void Lista<T>::agregarAdelante(const T& elem) {
-    Nodo *n = new Nodo;
+    Nodo* n;
     n->valor = elem;
     n->siguiente = primero;
     primero = n;
@@ -37,7 +36,7 @@ void Lista<T>::agregarAdelante(const T& elem) {
 
 template <typename T>
 void Lista<T>::agregarAtras(const T& elem) {
-    Nodo* n= new Nodo;
+    Nodo* n;
     n->valor = elem;
     n->siguiente = NULL;
     if(primero == NULL){

@@ -153,7 +153,7 @@ TEST(lista_test, test_lista_de_lista) {
 
     // test aliasing entre lista original y copias
     l.eliminar(0);    
-    EXPECT_EQ(ll.iesimo(0).longitud(), 4);    
+    EXPECT_EQ(ll.iesimo(0).longitud(), 4);
 
     // test aliasing entre elementos de lista
     ll.iesimo(0).eliminar(0);
