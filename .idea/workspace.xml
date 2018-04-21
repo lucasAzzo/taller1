@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="algo2_taller_memoria_dinamica" targetName="gtest_main" />
       <config projectName="algo2_taller_memoria_dinamica" targetName="gtest" />
       <config projectName="algo2_taller_memoria_dinamica" targetName="correrTests" />
-      <config projectName="algo2_taller_memoria_dinamica" targetName="gtest_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,120 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dadfc07e-be02-4d41-8fb5-41ef7c5c243e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/taller1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/correrTests.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/algo2_taller_memoria_dinamica.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/correrTests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/google-test/gtest.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lista.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lista.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/cmake/internal_utils.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/configure.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-death-test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-param-test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-param-test.h.pump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-printers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-test-part.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest-typed-test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest_pred_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/gtest_prod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/custom/gtest-port.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/custom/gtest-printers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/custom/gtest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-filepath.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-internal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-linked_ptr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-param-util-generated.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-param-util-generated.h.pump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-param-util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-port-arch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-port.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-string.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-tuple.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-tuple.h.pump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-type-util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/include/gtest/internal/gtest-type-util.h.pump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-all.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-death-test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-filepath.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-internal-inl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-port.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-printers.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-test-part.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest-typed-test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/google-test/src/gtest_main.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/lista_tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/correrTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,8 +34,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Lista.h" />
+        <option value="$PROJECT_DIR$/tests/lista_tests.cpp" />
+        <option value="$PROJECT_DIR$/src/Lista.hpp" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -168,6 +76,16 @@
               <item name="algo2_taller_memoria_dinamica" type="b2602c69:ProjectViewProjectNode" />
               <item name="taller1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algo2_taller_memoria_dinamica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taller1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo2_taller_memoria_dinamica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taller1" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -193,8 +111,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.correrTests">
+  <component name="RunManager" selected="Google Test.lista_test.test_lista_elem_complejo">
     <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST" />
+    <configuration name="lista_test.test_constructor_vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_constructor_vacio" TEST_MODE="SUITE_TEST" />
+    <configuration name="lista_test.test_lista_elem_complejo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_lista_elem_complejo" TEST_MODE="SUITE_TEST" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" />
@@ -203,7 +123,15 @@
       <item itemvalue="Google Test.correrTests" />
       <item itemvalue="Application.gtest" />
       <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
+      <item itemvalue="Google Test.lista_test.test_lista_elem_complejo" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.lista_test.test_lista_elem_complejo" />
+        <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -215,34 +143,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524262117198</updated>
-      <workItem from="1524262118598" duration="260000" />
+      <workItem from="1524262118598" duration="2521000" />
+      <workItem from="1524274758683" duration="6869000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1524262494199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524262494199</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="lista_test_test_constructor_vacio - 2018.04.21 at 00h 06m 21s.xml">
+      <configuration name="lista_test.test_constructor_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_constructor_vacio - 2018.04.21 at 00h 06m 27s.xml">
+      <configuration name="lista_test.test_constructor_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_constructor_vacio - 2018.04.21 at 00h 06m 58s.xml">
+      <configuration name="lista_test.test_constructor_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_constructor_vacio - 2018.04.21 at 00h 07m 35s.xml">
+      <configuration name="lista_test.test_constructor_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_constructor_vacio - 2018.04.21 at 00h 07m 41s.xml">
+      <configuration name="lista_test.test_constructor_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 00h 11m 26s.xml">
+      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 00h 11m 33s.xml">
+      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 00h 12m 39s.xml">
+      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 00h 13m 40s.xml">
+      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 00h 31m 13s.xml">
+      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260000" />
+    <option name="totallyTimeSpent" value="9390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1682" height="1023" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32932165" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32932165" />
+      <window_info anchor="bottom" id="CMake" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32932165" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932165" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,5 +223,71 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/google-test/src/gtest_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/google-test/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="2236" selection-start-line="2236" selection-end-line="2236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/google-test/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="4256" selection-start-line="4256" selection-end-line="4256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="180" column="4" lean-forward="true" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

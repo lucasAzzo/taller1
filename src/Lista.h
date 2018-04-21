@@ -59,13 +59,16 @@ public:
         return os;
     }
 
+
+
 private:
 
     struct Nodo {
-        // Completar
+        T valor;
+        Nodo* siguiente;
     };
+    Nodo* primero;
 
-    // Completar
 };
 
 #include "Lista.hpp"
