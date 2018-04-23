@@ -15,6 +15,15 @@
   <component name="ChangeListManager">
     <list default="true" id="dadfc07e-be02-4d41-8fb5-41ef7c5c243e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/correrTests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lista.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/lista_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/lista_tests.cpp" afterDir="false" />
@@ -33,8 +42,8 @@
       <file leaf-file-name="Lista.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,7 +51,7 @@
       <file leaf-file-name="Lista.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lista.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="540">
               <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
             </state>
           </provider>
@@ -51,8 +60,8 @@
       <file leaf-file-name="lista_tests.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+            <state relative-caret-position="271">
+              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -136,10 +145,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.lista_test.test_lista_elem_complejo">
+  <component name="RunManager" selected="Google Test.All in lista_tests.cpp">
+    <configuration name="All in lista_tests.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_PATTERN="lista_test.*:lista_test/*.*:*/lista_test.*/*:*/lista_test/*.*" TEST_MODE="PATTERN" />
     <configuration name="correrTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_MODE="SUITE_TEST" />
-    <configuration name="lista_test.test_constructor_vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_constructor_vacio" TEST_MODE="SUITE_TEST" />
-    <configuration name="lista_test.test_lista_elem_complejo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_lista_elem_complejo" TEST_MODE="SUITE_TEST" />
+    <configuration name="lista_test.test_agregar_un_elemento_adelante" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_agregar_un_elemento_adelante" TEST_MODE="SUITE_TEST" />
+    <configuration name="lista_test.test_constructor_vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_constructor_vacio" TEST_MODE="SUITE_TEST" />
+    <configuration name="lista_test.test_lista_elem_complejo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algo2_taller_memoria_dinamica" RUN_TARGET_NAME="correrTests" TEST_CLASS="lista_test" TEST_METHOD="test_lista_elem_complejo" TEST_MODE="SUITE_TEST" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
     <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algo2_taller_memoria_dinamica" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" />
@@ -150,9 +161,13 @@
       <item itemvalue="Application.gtest_main" />
       <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
       <item itemvalue="Google Test.lista_test.test_lista_elem_complejo" />
+      <item itemvalue="Google Test.All in lista_tests.cpp" />
+      <item itemvalue="Google Test.lista_test.test_agregar_un_elemento_adelante" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.All in lista_tests.cpp" />
+        <item itemvalue="Google Test.lista_test.test_agregar_un_elemento_adelante" />
         <item itemvalue="Google Test.lista_test.test_lista_elem_complejo" />
         <item itemvalue="Google Test.lista_test.test_constructor_vacio" />
       </list>
@@ -172,6 +187,9 @@
       <workItem from="1524274758683" duration="7029000" />
       <workItem from="1524309551588" duration="2214000" />
       <workItem from="1524324605564" duration="1052000" />
+      <workItem from="1524490883933" duration="375000" />
+      <workItem from="1524495932000" duration="135000" />
+      <workItem from="1524500147861" duration="10961000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1524262494199</created>
@@ -191,54 +209,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 30m 54s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 02m 01s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 31m 28s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 07m 46s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 32m 29s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 17m 43s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 35m 21s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 18m 26s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 35m 36s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 20m 26s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 35m 46s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 23m 04s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 36m 14s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 25m 42s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 36m 22s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 26m 07s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 08h 36m 28s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 29m 00s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="lista_test_test_lista_elem_complejo - 2018.04.21 at 12h 39m 32s.xml">
-      <configuration name="lista_test.test_lista_elem_complejo" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="All_in_lista_tests_cpp - 2018.04.23 at 16h 38m 18s.xml">
+      <configuration name="All in lista_tests.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12816000" />
+    <option name="totallyTimeSpent" value="24287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1682" height="1023" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32842106" />
       <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32947367" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28947368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932165" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39894736" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -265,6 +284,78 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -312,39 +403,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/google-test/include/gtest/gtest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
+        <state relative-caret-position="722">
           <caret line="2236" selection-start-line="2236" selection-end-line="2236" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/google-test/src/gtest.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="164">
           <caret line="4256" selection-start-line="4256" selection-end-line="4256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/lista_tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+        <state relative-caret-position="271">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lista.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lista.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
         </state>
       </provider>
     </entry>

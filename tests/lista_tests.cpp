@@ -177,6 +177,6 @@ TEST(lista_test, test_lista_elem_complejo) {
     // ¡Todo esto debe compilar!
     Lista<punto2d> l;
     punto2d p(0,1);
-    l.agregarAdelante(p);
-    l.agregarAdelante(punto2d(1,1));
+    //l.agregarAdelante(p);
+    //l.agregarAdelante(punto2d(1,1));
 }

@@ -15,7 +15,6 @@ Lista<T>::~Lista() {
     Nodo* p = primero;
     while(p != NULL){
         Nodo* q = p->siguiente;
-        q = p->siguiente;
         delete p;
         p = q;
     }
@@ -28,7 +27,7 @@ Lista<T>& Lista<T>::operator=(const Lista<T>& l) {
 
 template <typename T>
 void Lista<T>::agregarAdelante(const T& elem) {
-    Nodo* n;
+    Nodo* n = new Nodo;
     n->valor = elem;
     n->siguiente = primero;
     primero = n;
@@ -36,7 +35,7 @@ void Lista<T>::agregarAdelante(const T& elem) {
 
 template <typename T>
 void Lista<T>::agregarAtras(const T& elem) {
-    Nodo* n;
+    Nodo* n = new Nodo;
     n->valor = elem;
     n->siguiente = NULL;
     if(primero == NULL){
@@ -76,13 +75,22 @@ void Lista<T>::eliminar(Nat i) {
     for (int j = 0; j < i; ++j) {
         p = p->siguiente;
     }
+
     if(p->siguiente == NULL){
-        delete p;
-    } else{
-        Nodo* q = p;
-        q = p->siguiente;
+        delete[] p;
+    } else {
+        Nodo* q = p->siguiente;
+        Nodo* w = primero;
+        for (int j = 0; j <= i - 1; ++j) {
+            if(j == i - 1){
+               w->siguiente = q;
+            }
+            w = w->siguiente;
+        }
         delete p;
     }
+
+
 }
 
 template <typename T>
