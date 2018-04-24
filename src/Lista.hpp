@@ -77,11 +77,13 @@ void Lista<T>::eliminar(Nat i) {
     }
 
     if(p->siguiente == NULL){
-        delete[] p;
+        /* si no hay un siguiente a p, no tengo q definir el camino */
+        delete p;
     } else {
+        /* quiero que el nodo anterior apunte a p->siguiente , y luego eliminar p */
         Nodo* q = p->siguiente;
         Nodo* w = primero;
-        for (int j = 0; j <= i - 1; ++j) {
+        for (int j = 0; j < i - 1; ++j) {
             if(j == i - 1){
                w->siguiente = q;
             }
